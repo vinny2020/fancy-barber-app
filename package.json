@@ -12,7 +12,7 @@
     "@expo-google-fonts/dm-mono": "^0.2.3",
     "@expo-google-fonts/dm-sans": "^0.2.3",
     "@expo-google-fonts/playfair-display": "^0.2.3",
-    "@expo/webpack-config": "^19.0.1",
+    "@expo/metro-runtime": "~4.0.1",
     "@react-navigation/bottom-tabs": "^6.5.20",
     "@react-navigation/native": "^6.1.17",
     "@react-navigation/native-stack": "^6.9.26",
