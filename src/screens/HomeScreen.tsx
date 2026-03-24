@@ -93,9 +93,10 @@ export default function HomeScreen({ navigation }: any) {
         <Text style={styles.sectionTitle}>Hours & Location</Text>
         <GoldDivider style={{ marginVertical: Spacing.lg }} />
         {[
-          { day: 'Monday – Friday', hours: '9:00 AM – 7:00 PM' },
-          { day: 'Saturday',        hours: '8:00 AM – 6:00 PM' },
-          { day: 'Sunday',          hours: '10:00 AM – 4:00 PM' },
+          { day: 'Monday',            hours: 'Closed' },
+          { day: 'Tuesday – Friday',  hours: '9:00 AM – 7:00 PM' },
+          { day: 'Saturday',          hours: '8:00 AM – 6:00 PM' },
+          { day: 'Sunday',            hours: 'Closed' },
         ].map(h => (
           <View key={h.day} style={styles.hoursRow}>
             <Text style={styles.hoursDay}>{h.day}</Text>
